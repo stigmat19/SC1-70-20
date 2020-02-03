@@ -1,0 +1,34 @@
+html{
+    font-size: 20px;
+}
+
+body{
+    height: 10000px;
+}
+h1 {
+    background-color: blue;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+p{
+    color: chocolate;
+    font: italic small-caps 900 24px/20px 'Roboto', sans-serif;;
+}
+.ccc{
+    background-color: yellow;
+    color: green;
+}
+
+.aaa{
+    color: blue;
+    font-family: 'Raleway-BlackItalic', sans-serif;
+}
+
+#bbb{
+    color: violet;
+}
+div span{
+    color: orange;
+}
+div > span{
+    background-color: yellowgreen;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="http://fe.it-academy.by/TestForm.php"
+      method="post"
+      enctype="multipart/form-data"
+      target="aaa">
+    <fieldset>
+        <legend>hello</legend>
+        <label>
+            Your name
+            <input type="text"
+                   name="firstname"
+                   value="text"
+                   tabindex="2"
+                   placeholder="name" required>
+        </label> <br>
+        <label for="aaa">Your age</label>
+        <h3>hello</h3>
+        <input id="aaa" type="text" name="age" tabindex="1"><br>
+
+
+        <label>
+            password
+            <input type="password">
+        </label>
+
+
+        <label>
+            1
+            <input type="checkbox" name="check[]" value="check1">
+        </label>
+        <label>
+            2
+            <input type="checkbox" name="check[]" value="check2">
+        </label>
+        <label>
+            3
+            <input type="checkbox" name="check[]" value="check3">
+        </label>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>radio</legend>
+        <label>
+            1
+            <input type="radio" name="radio" value="radio1">
+        </label>
+        <label>
+            2
+            <input type="radio" name="radio" value="radio2">
+        </label>
+        <label>
+            3
+            <input type="radio" name="radio" value="radio3">
+        </label>
+
+        <label>
+            1
+            <input type="radio" name="radio1" value="radio1">
+        </label>
+        <label>
+            2
+            <input type="radio" name="radio1" value="radio2">
+        </label>
+        <label>
+            3
+            <input type="radio" name="radio1" value="radio3">
+        </label>
+    </fieldset>
+    
+    <fieldset>
+        <legend>file</legend>
+        <input type="file" name="file">
+    </fieldset>
+
+    <fieldset>
+        <legend>textarea</legend>
+        <textarea name="text" cols="30" rows="10"></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>select</legend>
+        <select name="list[]" size="3" multiple>
+            <option value="1">Минск</option>
+            <option value="minsk">Брест1</option>
+            <option value="3">Брест2</option>
+            <option value="4">Брест3</option>
+            <option value="5">Брест4</option>
+            <option value="6">Брест5</option>
+            <option value="7">Брест6</option>
+            <option value="0" selected>Город</option>
+        </select>
+    </fieldset>
+
+
+    <input type="number" min="10" max="100" step="10">
+
+    <label>
+        <input type="text" pattern="[0-9]{6,10}">
+    </label>
+
+    
+    <input type="submit" value="send">
+</form>
+
+
+
+</body>
+</html>

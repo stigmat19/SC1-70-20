@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .block{
+            width: 500px;
+            /*height: 700px;*/
+
+            background:  url('img/0e6287316f1d3a15c91f06aab482a6c7.jpeg') no-repeat 73px 30px;
+            /*background-color: rgba(255,0,0,1);*/
+
+        }
+        .test{
+            width: 200px;
+            background: green;
+        }
+        .test ~ span{
+            background-color: yellow;
+        }
+        .example{
+            min-width: 300px;
+            max-width: 500px;
+            height: 100px;
+            background-color: darkturquoise;
+        }
+    </style>
+</head>
+<body>
+
+<div class="block">
+    <h1>hello</h1>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+        aspernatur consequuntur ducimus exercitationem laborum maxime provident
+        ratione sint tempore voluptates. Corporis laudantium nisi quisquam
+        totam, veritatis vero vitae voluptas voluptatibus!
+    </div>
+    <div>Adipisci animi aspernatur autem blanditiis earum eius eos explicabo hic
+        illo iure laborum minima modi molestias neque, non officiis, omnis
+        perspiciatis placeat, quaerat quisquam quos recusandae repellendus
+        tempore veritatis vero!
+    </div>
+
+    <ul>
+        <li><p>text</p></li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+
+
+
+    <div class="test">div</div>
+    <div class="test">div</div>
+    <div class="test">div</div>
+    <div class="test">div</div>
+    <div class="test">div</div>
+    <span>span1</span>
+    <span>span2</span>
+    <span>span3</span>
+
+    <div class="example"></div>
+
+</body>
+</html>
