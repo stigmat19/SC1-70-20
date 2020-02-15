@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<div id="app"></div>
+
+
+<script>
+    var a = 5;
+    var b = 10;
+    var resDepoCalc = "Hello";
+    var bool = true; //false
+    var obj = {
+        name: 'Zhenya',
+        age: 25
+    };
+
+    var number = [1,2,3,4,5,6,7,8,9,0];
+
+    var people  = [
+        {
+            name: 'Zhenya',
+            age: 32
+        },
+        {
+            name: 'Anna',
+            age: 35
+        },
+        {
+            name: 'Oleg',
+            age: 28
+        }
+    ];
+
+    if(obj.age < 40){
+        alert('yes')
+    }
+    else{
+        alert('no')
+    }
+
+    for(var i=0; i<people.length; i++){
+        console.log(`name: ${people[i].name}, age: ${people[i].age}` )
+    }
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 10000px;
+}
+h2 + p{
+    background-color: red;                
+}
+
+div em{
+    color: violet;
+}
+div > em{
+    color: yellowgreen;
+}
+
+input{
+    background-color: blue;
+}
+[value="test2"]{
+    background-color: red;
+}
+[type="date"]{
+    background-color: yellow;
+}
+.A [type="button"]{
+    background-color: green;
+}
+.line::first-line{
+    background-color: aqua;
+}
+.line::selection{
+    background-color: sienna;
+    color: yellow;
+}
+h3{
+    text-align: center;
+}
+h3::before{
+    content: "\0174";
+}
+h3::after{
+    content: "\0174";
+}
+a{
+    color: tomato;
+}
+a:visited{
+    background-color: green;
+    color:red;
+}
+a:active{
+    font-size: 30px;
+}
+a:focus{
+    background-color: blue;
+}
+.square li{
+    list-style-type: none;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: inline-block;
+    background-color: green;
+}
+.square li:hover ~ li {
+    background-color: yellow;     
+}
+.square li:hover {
+    background-color: yellow;     
+}
+.square li:first-child{
+    background-color: brown;
+}
+.square li:last-child{
+    background-color: #720080;
+}
+h2:first-child{
+    background-color:green;
+}
+span:nth-of-type(2){
+    font-size: 100px;
+}

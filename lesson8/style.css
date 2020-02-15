@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 10000px;
+}
+.first{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    margin-top: 100px;
+    margin-left: 100px;
+    position: relative;
+    /* -moz-transform: scale(1.1) rotate(53deg) translate(-32px, -19px) skew(36deg, 20deg);
+    -webkit-transform: scale(1.1) rotate(53deg) translate(-32px, -19px) skew(36deg, 20deg);
+    -o-transform: scale(1.1) rotate(53deg) translate(-32px, -19px) skew(36deg, 20deg);
+    -ms-transform: scale(1.1) rotate(53deg) translate(-32px, -19px) skew(36deg, 20deg);
+    transform: scale(1.1) rotate(53deg) translate(-32px, -19px) skew(36deg, 20deg); */
+    -moz-transform: rotate(77deg);
+    -webkit-transform: rotate(77deg);
+    -o-transform: rotate(77deg);
+    -ms-transform: rotate(77deg);
+    transform: rotate(77deg);
+    -webkit-box-shadow: 21px -7px 37px -6px rgba(50,255,63,0.68); 
+box-shadow: 21px -7px 37px -6px rgba(50,255,63,0.68);
+}
+
+.second{
+    margin: 0 5px 10px;
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+    /* position: relative; */
+}
+.third{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
